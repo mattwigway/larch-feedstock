@@ -1,6 +1,6 @@
 {% set name = "larch" %}
 {% set version = "5.3.2" %}
-{% set checksum = "b8035f7fd55bcec1995290534bd19c77667fba07b2fd7a38907b6dcca0872778" %}
+{% set checksum = "71650f883de6363abdfb2c558ad43bde8d206d84c50763f236aeb1a2e60a6d28" %}
 
 
 package:
@@ -12,7 +12,7 @@ source:
   sha256: {{ checksum }}
 
 build:
-  number: 1
+  number: 0
   skip: True  # [py<37]
   script:
     - "{{ PYTHON }} -m pip install . --no-deps -vv"
