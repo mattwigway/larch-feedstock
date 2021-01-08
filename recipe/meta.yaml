@@ -60,14 +60,18 @@ requirements:
     - pydot
 
 test:
+  source_files:
+    - tests
+
   imports:
     - larch
 
   commands:
-    - pytest --pyargs larch
+    - pytest ./tests
 
   requires:
     - pytest
+    - pytest-regressions
     - geopandas
 
 about:
