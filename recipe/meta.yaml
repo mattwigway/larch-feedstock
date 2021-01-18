@@ -1,6 +1,6 @@
 {% set name = "larch" %}
-{% set version = "5.4.9" %}
-{% set checksum = "37a08b4257b18528770a6256ba8c08b92d81cdb2b7e34c60c623b69b4a336d45" %}
+{% set version = "5.4.10" %}
+{% set checksum = "09ed41ae34e7051e57852830927ccd2935a17074a000ca965ff49471588013ac" %}
 
 
 package:
