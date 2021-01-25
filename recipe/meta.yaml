@@ -1,6 +1,6 @@
 {% set name = "larch" %}
-{% set version = "5.4.10" %}
-{% set checksum = "09ed41ae34e7051e57852830927ccd2935a17074a000ca965ff49471588013ac" %}
+{% set version = "5.4.11" %}
+{% set checksum = "902716cc6551db85c6237fe39a04056ab746bc4505ee84a5898a9104b71d939c" %}
 
 
 package:
@@ -58,6 +58,7 @@ requirements:
     - xlsxwriter
     - openpyxl
     - pydot
+    - pyarrow
 
 test:
   source_files:
