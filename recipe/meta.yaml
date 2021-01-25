@@ -58,6 +58,7 @@ requirements:
     - xlsxwriter
     - openpyxl
     - pydot
+    - pyarrow
 
 test:
   source_files:
