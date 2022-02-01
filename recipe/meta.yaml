@@ -74,6 +74,9 @@ test:
     - pytest
     - pytest-regressions
     - geopandas
+    - numba
+    - xarray
+    - nbmake
 
 about:
   home: https://larch.newman.me
