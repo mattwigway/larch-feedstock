@@ -1,6 +1,6 @@
 {% set name = "larch" %}
-{% set version = "5.5.10" %}
-{% set checksum = "8cf64fb62a915ad18bcb0a6482505f3165e279e70df70a8ebcbb73d7cf46fdd9" %}
+{% set version = "5.6.1" %}
+{% set checksum = "b2ca400960f02f4a9d161c46dbb1ca9c37fd71e51330ae5bdc0b05240349bb4c" %}
 
 
 package:
@@ -13,7 +13,7 @@ source:
 
 build:
   number: 0
-  skip: true  # [py<37]
+  skip: true  # [py<38]
   script:
     - {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -59,6 +59,9 @@ requirements:
     - openpyxl
     - pydot
     - pyarrow
+    - numba
+    - xarray
+    - altair
 
 test:
   source_files:
@@ -74,8 +77,6 @@ test:
     - pytest
     - pytest-regressions
     - geopandas
-    - numba
-    - xarray
     - nbmake
 
 about:
