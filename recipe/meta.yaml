@@ -63,6 +63,7 @@ requirements:
     - xarray
     - altair
     - addicty
+    - sharrow >=2.0
 
 test:
   source_files:
