@@ -24,7 +24,7 @@ requirements:
     - llvm-openmp  # [osx]
   host:
     - python
-    - pip
+    - pip !=22.1
     - llvm-openmp  # [osx]
     - cython >=0.29
     - numpy
